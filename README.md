@@ -1,4 +1,5 @@
 書籍「実践Next.js」のサンプルリポジトリ
+書籍付属のサンプルコードは [ここ](https://github.com/practical-nextjs-book)
 
 ## 環境構築
 ```
