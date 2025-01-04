@@ -1,0 +1,20 @@
+/* Header, Nevなどすべてのコンポーネントを含むコンテナ */
+.container {
+  display: flex; /* flexboxを使って、子要素を整列, 均等配置する */
+  flex-direction: column; /* 子要素を縦方向に配置 */
+  min-height: 100vh; /* 画面の高さいっぱいに表示 */
+  background-color: #d8dcea; /* 背景色 */
+}
+
+/* Header, Footerを含まないコンテンツ */
+.content {
+  flex-grow: 1; /* 画面の高さいっぱいに表示 */
+  display: flex; /* flexboxを使って、子要素を整列, 均等配置する */
+}
+
+/* Header, Footer, Nevを含まないコンテンツ */
+.main {
+  flex-grow: 1; /* 画面の高さいっぱいに表示 */
+  display: flex; /* flexboxを使って、子要素を整列, 均等配置する */
+  padding: 24px; /* 上下左右に24pxのpaddingを設定 */
+}

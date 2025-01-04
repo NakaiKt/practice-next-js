@@ -1,0 +1,5 @@
+.navigation {
+  min-width: 220px; /* ナビゲーションの幅の最小値 */
+  padding: 24px; /* 上下左右に24pxのpaddingを設定 */
+  border-right: 1px solid #000; /* 右に1pxの黒い線を引く */
+}

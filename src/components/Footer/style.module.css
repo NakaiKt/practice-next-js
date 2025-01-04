@@ -1,0 +1,5 @@
+.footer {
+  padding: 24px; /* 上下左右に24pxのpaddingを設定 */
+  border-top: 1px solid #000; /* 上に1pxの黒い線を引く */
+  text-align: center; /* 中央揃え */
+}

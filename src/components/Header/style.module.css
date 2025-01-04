@@ -1,0 +1,4 @@
+.header {
+  padding: 24px; /* 上下左右に24pxのpaddingを設定 */
+  border-bottom: 1px solid #000; /* 下に1pxの黒い線を引く */
+}
