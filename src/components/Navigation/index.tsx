@@ -1,15 +1,16 @@
 import Link from "next/link";
 import styles from "./style.module.css";
+import LinkText from "./LinkText";
 
 export default function Navigation() {
   return (
     <nav className={styles.navigation}>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <LinkText link="/" text="ホーム" />
         </li>
         <li>
-          <Link href="/categories">カテゴリ一覧</Link>
+          <LinkText link="/categories" text="カテゴリ一覧" />
         </li>
       </ul>
     </nav>
