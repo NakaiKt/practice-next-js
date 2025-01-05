@@ -8,7 +8,7 @@ export default async function Page() {
       <h1>トップ画面</h1>
       <ul>
         {photos.map(({ id, title }) => (
-          <li>
+          <li key={id}>
             <Link href={`/photos/${id}`}>{title}</Link>
           </li>
         ))}

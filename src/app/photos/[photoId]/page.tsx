@@ -4,11 +4,13 @@ type Props = {
   params: { photoId: string };
 };
 
-export default function Page({ params }: Props) {
+// DynamicRoute Segmentを使用したルーティング
+export default async function Page({ params }: Props) {
+  const { photoId } = await params;
   return (
     <div>
       <ReturnButton />
-      <h1>写真ID: {params.photoId}</h1>
+      <h1>写真ID: {photoId}</h1>
       <table>
         <tbody>
           <tr>
